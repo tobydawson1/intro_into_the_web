@@ -20,6 +20,7 @@ get 'save' do
 end
 
 get '/cat' do
+    @rand = ["Amigo", "Oscar", "Viking"].sample
     erb(:index)
 end
 
